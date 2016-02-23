@@ -1,0 +1,15 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "5e0f58786074b4660704ec9e3b2b16ba"
+build_time: [508496580, 580201000]
+inputs:
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/AppDeviceDisconnectedState.swift": [508340396, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/AppBackgroundState.swift": [508320903, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/Mediator.swift": [508471154, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/UserProtocol.swift": [508426810, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/State.swift": [508318510, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/AppState_Swift/ViewController.swift": [508471703, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/MediatorProtocol.swift": [508470414, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/AppState_Swift/AppDelegate.swift": [507973358, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/AppDeviceConnectedState.swift": [508318950, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/AppDevice.swift": [508340545, 0]
+  "/Users/chiaweizhengterry/Desktop/AppState_Swift/User.swift": [508469564, 0]

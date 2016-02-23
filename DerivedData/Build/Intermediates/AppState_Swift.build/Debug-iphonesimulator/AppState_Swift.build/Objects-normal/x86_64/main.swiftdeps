@@ -1,0 +1,203 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "main"
+provides-nominal:
+- "C14AppState_Swift4main"
+provides-member:
+- ["C14AppState_Swift4main", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "User"
+- "main"
+- "StringLiteralType"
+- "NSObject"
+- "Mediator"
+depends-member:
+- ["PSs9AnyObject", "Mediator"]
+- ["PSs9AnyObject", "User"]
+- !private ["PSs9AnyObject", "deinit"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "mediator1"]
+- !private ["PSs9AnyObject", "name"]
+- !private ["PSs9AnyObject", "register"]
+- !private ["PSs9AnyObject", "sendMessage"]
+- ["PSs9AnyObject", "user1"]
+- ["PSs9AnyObject", "user2"]
+- ["PSs9AnyObject", "user3"]
+- ["PSs9AnyObject", "user4"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- ["PSs11CVarArgType", "Mediator"]
+- ["PSs11CVarArgType", "User"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "mediator1"]
+- ["PSs11CVarArgType", "user1"]
+- ["PSs11CVarArgType", "user2"]
+- ["PSs11CVarArgType", "user3"]
+- ["PSs11CVarArgType", "user4"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "Mediator"]
+- ["PSs23CustomStringConvertible", "User"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "mediator1"]
+- ["PSs23CustomStringConvertible", "user1"]
+- ["PSs23CustomStringConvertible", "user2"]
+- ["PSs23CustomStringConvertible", "user3"]
+- ["PSs23CustomStringConvertible", "user4"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["PSs9Equatable", "Mediator"]
+- ["PSs9Equatable", "User"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "mediator1"]
+- ["PSs9Equatable", "user1"]
+- ["PSs9Equatable", "user2"]
+- ["PSs9Equatable", "user3"]
+- ["PSs9Equatable", "user4"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- ["PSs8Hashable", "Mediator"]
+- ["PSs8Hashable", "User"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "mediator1"]
+- ["PSs8Hashable", "user1"]
+- ["PSs8Hashable", "user2"]
+- ["PSs8Hashable", "user3"]
+- ["PSs8Hashable", "user4"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["C14AppState_Swift8Mediator", "deinit"]
+- ["C14AppState_Swift8Mediator", "init"]
+- !private ["C14AppState_Swift8Mediator", "register"]
+- ["P14AppState_Swift16MediatorProtocol", "init"]
+- !private ["P14AppState_Swift16MediatorProtocol", "register"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Mediator"]
+- ["CSo8NSObject", "User"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "mediator1"]
+- ["CSo8NSObject", "user1"]
+- ["CSo8NSObject", "user2"]
+- ["CSo8NSObject", "user3"]
+- ["CSo8NSObject", "user4"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "Mediator"]
+- ["PSo16NSObjectProtocol", "User"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "mediator1"]
+- ["PSo16NSObjectProtocol", "user1"]
+- ["PSo16NSObjectProtocol", "user2"]
+- ["PSo16NSObjectProtocol", "user3"]
+- ["PSo16NSObjectProtocol", "user4"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C14AppState_Swift4User", "deinit"]
+- ["C14AppState_Swift4User", "init"]
+- !private ["C14AppState_Swift4User", "name"]
+- !private ["C14AppState_Swift4User", "sendMessage"]
+- ["P14AppState_Swift12UserProtocol", "init"]
+- !private ["P14AppState_Swift12UserProtocol", "name"]
+- !private ["P14AppState_Swift12UserProtocol", "sendMessage"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "init"]
+- ["C14AppState_Swift4main", "Mediator"]
+- ["C14AppState_Swift4main", "User"]
+- ["C14AppState_Swift4main", "deinit"]
+- ["C14AppState_Swift4main", "init"]
+- ["C14AppState_Swift4main", "mediator1"]
+- ["C14AppState_Swift4main", "user1"]
+- ["C14AppState_Swift4main", "user2"]
+- ["C14AppState_Swift4main", "user3"]
+- ["C14AppState_Swift4main", "user4"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- "C14AppState_Swift8Mediator"
+- "P14AppState_Swift16MediatorProtocol"
+- !private "PSs14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs16OutputStreamType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "C14AppState_Swift4User"
+- "P14AppState_Swift12UserProtocol"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+- "C14AppState_Swift4main"
+depends-dynamic-lookup:
+- !private "init"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "10e10f62144dc413cde49b6b22afd6c4"

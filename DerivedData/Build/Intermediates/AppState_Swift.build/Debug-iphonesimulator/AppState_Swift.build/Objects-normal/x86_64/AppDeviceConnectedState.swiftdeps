@@ -1,0 +1,124 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDeviceConnectedState"
+provides-nominal:
+- "C14AppState_Swift23AppDeviceConnectedState"
+provides-member:
+- ["C14AppState_Swift23AppDeviceConnectedState", ""]
+provides-dynamic-lookup:
+- "startingApp"
+- "quittingApp"
+- "connectingToDeivce"
+- "disconnectingToDevice"
+depends-top-level:
+- "AppDevice"
+- "AppDeviceConnectedState"
+- "NSObject"
+- !private "print"
+- !private "StringLiteralType"
+- "State"
+depends-member:
+- !private ["PSs9AnyObject", "appBackgroundState"]
+- ["PSs9AnyObject", "appDevice"]
+- !private ["PSs9AnyObject", "appDeviceDisconnectedState"]
+- ["PSs9AnyObject", "connectingToDeivce"]
+- ["PSs9AnyObject", "disconnectingToDevice"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "quittingApp"]
+- ["PSs9AnyObject", "startingApp"]
+- !private ["PSs9AnyObject", "state"]
+- ["PSs9AnyObject", ""]
+- !private ["C14AppState_Swift9AppDevice", "appBackgroundState"]
+- !private ["C14AppState_Swift9AppDevice", "appDeviceDisconnectedState"]
+- !private ["C14AppState_Swift9AppDevice", "state"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "AppDevice"]
+- !private ["C14AppState_Swift23AppDeviceConnectedState", "appDevice"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "connectingToDeivce"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "deinit"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "disconnectingToDevice"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "init"]
+- !private ["C14AppState_Swift23AppDeviceConnectedState", "print"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "quittingApp"]
+- ["C14AppState_Swift23AppDeviceConnectedState", "startingApp"]
+- ["PSs11CVarArgType", "appDevice"]
+- ["PSs11CVarArgType", "connectingToDeivce"]
+- ["PSs11CVarArgType", "disconnectingToDevice"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "quittingApp"]
+- ["PSs11CVarArgType", "startingApp"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "appDevice"]
+- ["PSs23CustomStringConvertible", "connectingToDeivce"]
+- ["PSs23CustomStringConvertible", "disconnectingToDevice"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "quittingApp"]
+- ["PSs23CustomStringConvertible", "startingApp"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "appDevice"]
+- ["PSs9Equatable", "connectingToDeivce"]
+- ["PSs9Equatable", "disconnectingToDevice"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "quittingApp"]
+- ["PSs9Equatable", "startingApp"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "appDevice"]
+- ["PSs8Hashable", "connectingToDeivce"]
+- ["PSs8Hashable", "disconnectingToDevice"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "quittingApp"]
+- ["PSs8Hashable", "startingApp"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- ["CSo8NSObject", "AppDevice"]
+- ["CSo8NSObject", "appDevice"]
+- ["CSo8NSObject", "connectingToDeivce"]
+- ["CSo8NSObject", "disconnectingToDevice"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "quittingApp"]
+- ["CSo8NSObject", "startingApp"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "appDevice"]
+- ["PSo16NSObjectProtocol", "connectingToDeivce"]
+- ["PSo16NSObjectProtocol", "disconnectingToDevice"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "quittingApp"]
+- ["PSo16NSObjectProtocol", "startingApp"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["P14AppState_Swift5State", "appDevice"]
+- ["P14AppState_Swift5State", "connectingToDeivce"]
+- ["P14AppState_Swift5State", "disconnectingToDevice"]
+- !private ["P14AppState_Swift5State", "init"]
+- !private ["P14AppState_Swift5State", "print"]
+- ["P14AppState_Swift5State", "quittingApp"]
+- ["P14AppState_Swift5State", "startingApp"]
+- ["P14AppState_Swift5State", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C14AppState_Swift9AppDevice"
+- "C14AppState_Swift23AppDeviceConnectedState"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "SQ"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "P14AppState_Swift5State"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "0c9c93baf925f39c8be9669f36e26ed7"

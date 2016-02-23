@@ -1,0 +1,81 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDevice"
+provides-nominal:
+- "C14AppState_Swift9AppDevice"
+provides-member:
+- ["C14AppState_Swift9AppDevice", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AppDeviceConnectedState"
+- !private "AppDeviceDisconnectedState"
+- "AppDevice"
+- "State"
+- !private "AppBackgroundState"
+depends-member:
+- !private ["PSs9AnyObject", "AppBackgroundState"]
+- !private ["PSs9AnyObject", "AppDeviceConnectedState"]
+- !private ["PSs9AnyObject", "AppDeviceDisconnectedState"]
+- !private ["PSs9AnyObject", "appBackgroundState"]
+- !private ["PSs9AnyObject", "appDeviceConnectedState"]
+- !private ["PSs9AnyObject", "appDeviceDisconnectedState"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "state"]
+- ["PSs9AnyObject", ""]
+- !private ["C14AppState_Swift18AppBackgroundState", "deinit"]
+- !private ["C14AppState_Swift18AppBackgroundState", "init"]
+- !private ["C14AppState_Swift9AppDevice", "AppBackgroundState"]
+- !private ["C14AppState_Swift9AppDevice", "AppDeviceConnectedState"]
+- !private ["C14AppState_Swift9AppDevice", "AppDeviceDisconnectedState"]
+- ["C14AppState_Swift9AppDevice", "State"]
+- ["C14AppState_Swift9AppDevice", "appBackgroundState"]
+- ["C14AppState_Swift9AppDevice", "appDeviceConnectedState"]
+- ["C14AppState_Swift9AppDevice", "appDeviceDisconnectedState"]
+- ["C14AppState_Swift9AppDevice", "connectingToDeivce"]
+- ["C14AppState_Swift9AppDevice", "deinit"]
+- ["C14AppState_Swift9AppDevice", "disconnectingToDevice"]
+- ["C14AppState_Swift9AppDevice", "init"]
+- ["C14AppState_Swift9AppDevice", "quittingApp"]
+- ["C14AppState_Swift9AppDevice", "startingApp"]
+- ["C14AppState_Swift9AppDevice", "state"]
+- !private ["C14AppState_Swift23AppDeviceConnectedState", "deinit"]
+- !private ["C14AppState_Swift23AppDeviceConnectedState", "init"]
+- !private ["C14AppState_Swift26AppDeviceDisconnectedState", "deinit"]
+- !private ["C14AppState_Swift26AppDeviceDisconnectedState", "init"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs8Hashable", "init"]
+- !private ["SQ", "deinit"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["P14AppState_Swift5State", "connectingToDeivce"]
+- !private ["P14AppState_Swift5State", "disconnectingToDevice"]
+- !private ["P14AppState_Swift5State", "init"]
+- !private ["P14AppState_Swift5State", "quittingApp"]
+- !private ["P14AppState_Swift5State", "startingApp"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "C14AppState_Swift18AppBackgroundState"
+- "C14AppState_Swift9AppDevice"
+- !private "C14AppState_Swift23AppDeviceConnectedState"
+- !private "C14AppState_Swift26AppDeviceDisconnectedState"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs8Hashable"
+- !private "SQ"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "P14AppState_Swift5State"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "801f056bc05a592a7bc76c87df46574b"
